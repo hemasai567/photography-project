@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcrkv_A9RycnWJjeNZYJUbQ4K-P73GlI2-hQ&s'); /* URL of your background image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Makes the background image fixed on scroll */
+}
+
+/* Header Section */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: rgb(233, 224, 233);
+}
+
+.site-header .logo {
+    font-size: 1.5rem;
+}
+
+.site-header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.site-header nav ul li {
+    margin: 0;
+}
+
+.site-header nav ul li a {
+    color: rgb(252, 244, 252);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('hero-background.jpg'); /* URL of your background image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Makes the background image fixed on scroll */
+    color: rgb(244, 244, 245);
+    text-align: center;
+    padding: 4rem 1rem;
+    margin-top: 1rem;
+}
+
+/* Portfolio Section */
+.portfolio {
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: #fff;
+    margin: 2rem auto;
+    width: 90%;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.gallery-item {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Footer Section */
+footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.social-media a {
+    color: white;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
